@@ -1,0 +1,120 @@
+.app-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .task-create-div {
+    width: 450px;
+
+    .task-create-form {
+      display: flex;
+      flex-direction: column;
+
+      .task-create-form-label {
+        margin: 10px 0;
+      }
+
+      .task-create-form-input {
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+
+      .task-create-form-textarea {
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+
+      .task-create-form-button {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid green;
+        background-color: green;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .task-update-div {
+    width: 100%;
+
+    .task-update-form {
+        display: flex;
+        flex-direction: column;
+  
+        .task-update-form-label {
+          margin: 10px 0;
+        }
+  
+        .task-update-form-input {
+          padding: 10px;
+          border: 1px solid black;
+          border-radius: 10px;
+        }
+  
+        .task-update-form-textarea {
+          padding: 10px;
+          border: 1px solid black;
+          border-radius: 10px;
+        }
+  
+        .task-update-form-button {
+          margin: 10px 0;
+          padding: 10px;
+          border: none;
+          background-color: blueviolet;
+          color: white;
+          font-size: 20px;
+          border-radius: 10px;
+        }
+      }
+  }
+
+  .task-list-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .task-show-div {
+      .task-show-title {
+        margin-bottom: 5px;
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid green;
+      border-radius: 30px;
+      padding: 20px;
+      width: 350px;
+      margin: 20px;
+
+      .task-show-buttons {
+        .task-show-buttons-delete {
+          padding: 5px;
+          font-size: 15px;
+          margin-right: 10px;
+          border: none;
+          background-color: red;
+          color: white;
+          border-radius: 30px;
+          width: 60px;
+        }
+
+        .task-show-buttons-update {
+          padding: 5px;
+          font-size: 15px;
+          margin-right: 10px;
+          border: none;
+          background-color: blue;
+          color: white;
+          border-radius: 30px;
+          width: 100px;
+        }
+      }
+    }
+  }
+}
